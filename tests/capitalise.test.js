@@ -15,4 +15,9 @@ describe('capitalise', () => {
     const result = capitalise(123);
     expect(result).toEqual(123);
   });
+
+  test('should capitalise the first letter of a sentence', () => {
+    const result = capitalise('this is a sentence');
+    expect(result).toBe('This is a sentence');
+  });
 });
