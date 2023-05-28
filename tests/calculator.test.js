@@ -20,4 +20,9 @@ describe('calculator', () => {
     const result = calculator.divide(8, 2);
     expect(result).toBe(4);
   });
+
+  test('should return NaN when dividing by zero', () => {
+    const result = calculator.divide(10, 0);
+    expect(result).toBe(NaN);
+  });
 });
