@@ -12,8 +12,8 @@ describe('calculator', () => {
   });
 
   test('multiply numbers', () => {
-    const result = calculator.multiply(4, 2);
-    expect(result).toBe(8);
+    const result = calculator.multiply(4, 3);
+    expect(result).toBe(12);
   });
 
   test('divide numbers', () => {
